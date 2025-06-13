@@ -1,0 +1,59 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{eurosym}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{yhmath}
+\usepackage{pdfpages}
+
+%%%%%%%%%%%%%%%%%%%%%%%%FORMAT%%%%%%%%%%%%%%%%%%%%%%%%
+
+% We're working with A4, which is 21cm by 29.7
+\setlength{\paperwidth}{210mm}
+\setlength{\paperheight}{297mm}
+\setlength{\hoffset}{-1.5in}
+\setlength{\voffset}{-1.6in}
+\setlength{\textheight}{250mm}
+\setlength{\textwidth}{185mm}
+\setlength{\oddsidemargin}{25mm}
+
+\setlength{\topmargin}{2cm}
+\setlength{\headheight}{12pt}
+\setlength{\headsep}{25pt}
+\setlength{\parskip}{0.2cm}
+\setlength{\footskip}{1.2cm} %def=30pt=1.054cm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+\everymath{\displaystyle}
+\usepackage{ifthen}
+\usepackage[catalan]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations.pathreplacing} 
+\newcommand{\OPTION}{B}
+\usepackage{eurosym}
+\usepackage{gensymb}
+
+\ifthenelse{\equal{\OPTION}{A}}{
+%opcio A
+}{
+%opcio B
+}
+
+\begin{document}
+
+\section*{Mostra Catalunya}
+\begin{enumerate}
+\input{mostraCatalunya}
+\end{enumerate}
+
+
+\section*{PAU Asturias}
+\begin{enumerate}
+\input{PAU_Asturias}
+\end{enumerate}
+
+\end{document}
