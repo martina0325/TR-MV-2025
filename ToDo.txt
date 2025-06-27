@@ -1,5 +1,0 @@
-Aquest document conté la feina pendent:
-
-- Fer una llista de les carreres universitàries.
-- Aprendre a fer servir el git i eliminar aquest ítem de la llista de tasques per fer...
-
